@@ -14,7 +14,7 @@ export default function About() {
             <p>✏️ Add a profile photo using the next/image component</p>
             <p>✏️ Write a paragraph about who you are</p>
             <p>✏️ List your skills or interests</p>
-            <p>✏️ Share your goals or what you're learning</p>
+            <p>✏️ Share your goals or what youre learning</p>
           </div>
         </div>
 
