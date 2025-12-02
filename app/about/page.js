@@ -1,4 +1,4 @@
-export default function AboutPage() {
+export default function Page() {
   return (
     <div className="relative min-h-screen w-full px-6 pt-32 pb-24 md:px-16">
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
           className="text-5xl md:text-6xl font-extrabold tracking-tight text-[#fdf6e3] drop-shadow-lg"
           style={{ fontFamily: "Georgia, serif" }}
         >
-          Hey, I'm <span className="text-[#f5e6c8]">Daniel</span>
+          Hey, I&#39;m <span className="text-[#f5e6c8]">Daniel</span>
         </h1>
 
         <p
@@ -36,7 +36,7 @@ export default function AboutPage() {
           bg-[#f7e9d2]/90 p-6 rounded-xl shadow-xl border border-[#d3c0a6] backdrop-blur-sm"
           style={{ fontFamily: "Georgia, serif" }}
         >
-          I’m a full-stack web developer with hands-on experience in Python,
+          I&#39;m a full-stack web developer with hands-on experience in Python,
           JavaScript, React, and Figma—passionate about using technology to solve
           real-world problems and support communities.
         </p>
@@ -71,7 +71,10 @@ export default function AboutPage() {
             bg-[#fae7c8]/90 backdrop-blur-sm"
             style={{ fontFamily: "Georgia, serif" }}
           >
-            <h2 className="text-3xl mb-3 text-[#3b2f2f] font-semibold">What I'm Doing Now</h2>
+            <h2 className="text-3xl mb-3 text-[#3b2f2f] font-semibold">
+              What I&#39;m Doing Now
+            </h2>
+
             <ul className="space-y-3 text-[#4b3a32]">
               <li>⚡ Building responsive React applications</li>
               <li>🎨 Improving UI/UX design with Figma</li>
