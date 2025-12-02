@@ -2,6 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+
 
 /**
  * Glitch-Graffiti Projects Page (B + C)
@@ -131,7 +133,7 @@ export default function ProjectsPage() {
             >
               {/* Left: Image with RGB split layers */}
               <div className="relative overflow-hidden rounded-xl shadow-lg">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-72 object-cover block"
@@ -206,7 +208,7 @@ export default function ProjectsPage() {
             >
               {/* Card image with rgb layers for chromatic aberration */}
               <div className="relative overflow-hidden">
-                <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+                <Image src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                 <div className="rgb-overlay pointer-events-none absolute inset-0" aria-hidden />
                 {/* optional play overlay for video/animation */}
                 {project.animation && (

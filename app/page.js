@@ -35,7 +35,7 @@ export default function Home() {
 
           <p className="text-lg md:text-xl text-gray-100 dark:text-gray-300 leading-relaxed 
             max-w-3xl mx-auto font-light tracking-wide drop-shadow-sm mb-12">
-            I’m a full-stack web developer skilled in Python, JavaScript, React, and Figma—driven 
+            I&apos;m a full-stack web developer skilled in Python, JavaScript, React, and Figma&mdash;driven 
             by a passion for building technology that solves real-world problems and supports communities.
           </p>
 
@@ -61,7 +61,6 @@ export default function Home() {
         </div>
       </div>
 
-
       {/* ================= FEATURED VIDEO SECTION (outside hero) ================= */}
       <section className="w-full py-20 px-6 text-center animate-fadeInSlow">
         <h2 className="text-3xl md:text-4xl font-bold text-purple-300 dark:text-purple-400 mb-8">
@@ -70,7 +69,7 @@ export default function Home() {
 
         <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-3xl overflow-hidden 
         shadow-2xl border border-white/20 dark:border-gray-700">
-         <iframe
+          <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/_fiGA_95CnU?autoplay=1&mute=1&loop=1&playlist=_fiGA_95CnU"
             frameBorder="0"
